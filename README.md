@@ -29,16 +29,16 @@ The Wikipedia Philosophy Loop Detector is a web application/API designed to expl
 
 ## Built With
 
-Node.js
-Express (Web framework)
-EJS (Embedded JavaScript) for templating
+Node.js<br>
+Express (Web framework)<br>
+EJS (Embedded JavaScript) for templating<br>
 
 ## Getting Started
 
-1)git clone https://github.com/Dhruv9544/Wikipedia.git
-2)cd wikipedia
-npm install
-3)node app.js
+1)git clone https://github.com/Dhruv9544/Wikipedia.git <br>
+2)cd wikipedia<br>
+npm install<br>
+3)node app.js<br>
 
 ### Prerequisites
 
@@ -71,11 +71,11 @@ Open your web browser and go to http://localhost:3000 to use the Wikipedia Philo
     ```
 ## Usage
 
-1.Open your web browser and go to http://localhost:3000.
-2.Enter a valid Wikipedia URL in the provided input field.
-3.Click the "Calculate" button to initiate the process.
-4.Observe the real-time display of visited pages and the number of requests.
-5.The traversal continues until the "Philosophy" page is reached, and the results are displayed.
+1.Open your web browser and go to http://localhost:3000.<br>
+2.Enter a valid Wikipedia URL in the provided input field.<br>
+3.Click the "Calculate" button to initiate the process.<br>
+4.Observe the real-time display of visited pages and the number of requests.<br>
+5.The traversal continues until the "Philosophy" page is reached, and the results are displayed.<br>
 
 ## Authors
 
