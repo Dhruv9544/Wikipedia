@@ -21,8 +21,8 @@
 
 ## About The Project
 
-![Image 1](./public/Wikipedia(1).png)
-![Image 2](./public/Wikipedia(result).png)
+![ui](./public/Wikipedia(1).png)
+![Result](./public/Wikipedia(result).png)
 
 
 The Wikipedia Philosophy Loop Detector is a web application/API designed to explore the well-known phenomenon known as the "Wikipedia Loop." The phenomenon involves navigating through Wikipedia articles by clicking the first link in the main body text and eventually reaching the "Philosophy" page. This project aims to determine the number of requests it takes to reach the "Philosophy" page from a given Wikipedia URL while also displaying the path of visited pages along the way.
@@ -45,19 +45,29 @@ npm install
 Open your web browser and go to http://localhost:3000 to use the Wikipedia Philosophy Loop Detector.
 
 ### Installation
+1. *Clone the Repository:*
 
-1)Clone the Repository:
-->git clone https://github.com/Dhruv9544/Wikipedia.git
+    bash
+    git clone https://github.com/Dhruv9544/Wikipedia.git
+    
 
-2)Navigate to Project Directory:
--> cd wikipedia
+2. *Navigate to Project Directory:*
 
-3)Install Dependencies:
--> npm install
+    bash
+    cd wikipedia
+    
 
-4)Run the Application:
--> node app.js
+3. *Install Dependencies for Back-end:*
 
+    bash
+    npm install
+    
+
+4. *Run the Application for Back-end:*
+
+    bash
+    node app.js
+    
 ## Usage
 
 1.Open your web browser and go to http://localhost:3000.
