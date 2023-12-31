@@ -8,22 +8,20 @@
 
 </p>
 
-
-
 ## Table Of Contents
 
-* [About the Project](#about-the-project)
-* [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Authors](#authors)
-* [Acknowledgements](#acknowledgements)
+- [About the Project](#about-the-project)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Authors](#authors)
+- [Acknowledgements](#acknowledgements)
 
 ## About The Project
 
-![Screen Shot](public/Wikipedia(1).png)
+![Screen Shot](<public\Wikipedia(1).png>)
 
 The Wikipedia Philosophy Loop Detector is a web application/API designed to explore the well-known phenomenon known as the "Wikipedia Loop." The phenomenon involves navigating through Wikipedia articles by clicking the first link in the main body text and eventually reaching the "Philosophy" page. This project aims to determine the number of requests it takes to reach the "Philosophy" page from a given Wikipedia URL while also displaying the path of visited pages along the way.
 
@@ -37,7 +35,7 @@ EJS (Embedded JavaScript) for templating
 
 1)git clone https://github.com/Dhruv9544/Wikipedia.git
 2)cd wikipedia
-   npm install
+npm install
 3)node app.js
 
 ### Prerequisites
@@ -46,18 +44,17 @@ Open your web browser and go to http://localhost:3000 to use the Wikipedia Philo
 
 ### Installation
 
-
 1)Clone the Repository:
- ->git clone https://github.com/Dhruv9544/Wikipedia.git
+->git clone https://github.com/Dhruv9544/Wikipedia.git
 
 2)Navigate to Project Directory:
-  -> cd wikipedia
+-> cd wikipedia
 
 3)Install Dependencies:
-   -> npm install
+-> npm install
 
 4)Run the Application:
- -> node app.js
+-> node app.js
 
 ## Usage
 
@@ -67,11 +64,6 @@ Open your web browser and go to http://localhost:3000 to use the Wikipedia Philo
 4.Observe the real-time display of visited pages and the number of requests.
 5.The traversal continues until the "Philosophy" page is reached, and the results are displayed.
 
-
-
-
-
 ## Authors
 
-* **Dhruv Shah** - *I am currently a third-year student pursuing a Bachelor's in Information Technology at Vishwakarma Government Engineering College.* - [Dhruv Shah]() - **
-
+- **Dhruv Shah** - _I am currently a third-year student pursuing a Bachelor's in Information Technology at Vishwakarma Government Engineering College._ - [Dhruv Shah]() - \*\*
