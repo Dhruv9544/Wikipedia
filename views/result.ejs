@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+
+    <div class="container mt-5">
+        <% steps = 0 %>
+        <% if (typeof error !== 'undefined') { %>
+            <div class="alert alert-danger" role="alert">
+                <%= error %>
+            </div>
+        <% } else { %>
+            <h2 class="mb-4">Path to Philosophy:</h2>
+            <ul class="list-group">
+                <% for (const page of path) { %>
+                    <% steps++ %>
+                    <li class="list-group-item"><a href="https://en.wikipedia.org<%= page %>" target="_blank"><%= page %></a></li>
+                <% } %>
+            </ul>
+            <h2 class="mt-4">Total links visited: <%= steps %></h2>
+        <% } %>
+        <a class="btn btn-primary mt-3" href="/">Back to Home</a>
+    </div>
+
+</body>
+</html>
