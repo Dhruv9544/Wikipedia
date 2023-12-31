@@ -21,6 +21,9 @@
 
 ## About The Project
 
+![Image 1](./public/Wikipedia(1).png)
+![Image 2](./public/Wikipedia(result).png)
+
  <img src="./public/Wikipedia(1).png" alt="Logo" width="80" height="80">
  <img src="./public/Wikipedia(result).png" alt="Logo" width="80" height="80">
 
