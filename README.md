@@ -45,29 +45,30 @@ npm install
 Open your web browser and go to http://localhost:3000 to use the Wikipedia Philosophy Loop Detector.
 
 ### Installation
-1. *Clone the Repository:*
+1. **Clone the Repository:**
 
-    bash
+    ```bash
     git clone https://github.com/Dhruv9544/Wikipedia.git
-    
+    ````
 
-2. *Navigate to Project Directory:*
+2. **Navigate to Project Directory:**
 
-    bash
+   ``` bash
     cd wikipedia
-    
+    ```
 
-3. *Install Dependencies for Back-end:*
+3. **Install Dependencies for Back-end:**
 
-    bash
+   ``` bash
     npm install
+    ```
     
 
-4. *Run the Application for Back-end:*
+4. **Run the Application for Back-end:**
 
-    bash
+    ```bash
     node app.js
-    
+    ```
 ## Usage
 
 1.Open your web browser and go to http://localhost:3000.
