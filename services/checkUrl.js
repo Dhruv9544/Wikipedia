@@ -16,8 +16,9 @@ async function get_next_link(url) {
   
       // Iterate through paragraphs to find a valid link
       paragraphs.each((index, paragraph) => {
-        const links = $(paragraph).find("a");
+        const links = $(paragraph).find("a[href^='/wiki/']:not(:has(span))");
         if (links.length > 0) {
+
           next_link = $(links[0]).attr("href");
           return false; // Break out of the loop after finding the first valid link
         }
