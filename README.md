@@ -21,24 +21,24 @@
 
 ## About The Project
 
-![ui](./public/Wikipedia(1).png)
-![Result](./public/Wikipedia(result).png)
+![Wikipedia(1)](https://github.com/Dhruv9544/hackingly-Wikipedia-internship-task/assets/113520549/34176f27-4c30-4389-9538-109d38126c16)
+![Wikipedia(result)](https://github.com/Dhruv9544/hackingly-Wikipedia-internship-task/assets/113520549/1e6986cd-c2e3-4b8f-9821-9de1f9feb1fa)
 
 
 The Wikipedia Philosophy Loop Detector is a web application/API designed to explore the well-known phenomenon known as the "Wikipedia Loop." The phenomenon involves navigating through Wikipedia articles by clicking the first link in the main body text and eventually reaching the "Philosophy" page. This project aims to determine the number of requests it takes to reach the "Philosophy" page from a given Wikipedia URL while also displaying the path of visited pages along the way.
 
 ## Built With
 
-Node.js
-Express (Web framework)
-EJS (Embedded JavaScript) for templating
+Node.js<br>
+Express (Web framework)<br>
+EJS (Embedded JavaScript) for templating<br>
 
 ## Getting Started
 
-1)git clone https://github.com/Dhruv9544/Wikipedia.git
-2)cd wikipedia
-npm install
-3)node app.js
+1)git clone https://github.com/Dhruv9544/Wikipedia.git <br>
+2)cd wikipedia<br>
+npm install<br>
+3)node app.js<br>
 
 ### Prerequisites
 
@@ -71,11 +71,11 @@ Open your web browser and go to http://localhost:3000 to use the Wikipedia Philo
     ```
 ## Usage
 
-1.Open your web browser and go to http://localhost:3000.
-2.Enter a valid Wikipedia URL in the provided input field.
-3.Click the "Calculate" button to initiate the process.
-4.Observe the real-time display of visited pages and the number of requests.
-5.The traversal continues until the "Philosophy" page is reached, and the results are displayed.
+1.Open your web browser and go to http://localhost:3000.<br>
+2.Enter a valid Wikipedia URL in the provided input field.<br>
+3.Click the "Calculate" button to initiate the process.<br>
+4.Observe the real-time display of visited pages and the number of requests.<br>
+5.The traversal continues until the "Philosophy" page is reached, and the results are displayed.<br>
 
 ## Authors
 
