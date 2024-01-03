@@ -3,7 +3,7 @@ const checkUrlServices = require('../services/checkUrl')
 async function CheckUrl(req,res) {
 
     const start_url = req.body.url;
-    const path = await checkUrlServices.get_path_to_philosophy(start_url);
+    const path = await checkUrlServices.get_path_to_philosophy(start_url); // call the function from services
   
     if (!path) {
       res.render("result", {
