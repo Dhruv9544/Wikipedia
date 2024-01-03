@@ -1,13 +1,6 @@
 # Wikipedia Loop Checker
 
-<p align="center">
-  <a href="https://github.com/Dhruv9544/Wikipedia">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
-  <h3 align="center">Wikipedia Loop Checker</h3>
-
-</p>
 
 ## Table Of Contents
 
